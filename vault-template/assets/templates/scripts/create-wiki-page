@@ -27,8 +27,7 @@ if (existingFile) {
 await tp.file.move(targetPath);
 
 // 4. Apply wiki template
-const templateFile = tp.file.find_tfile("assets/templates/template-wiki.md");
+const templateFile = tp.file.find_tfile("assets/templater/templates/wiki.md");
 const templateContent = await app.vault.read(templateFile);
 await app.vault.modify(tp.file.find_tfile(targetPath), templateContent);
 %>
-
