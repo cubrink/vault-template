@@ -70,9 +70,10 @@ This vault should be kept as simple as possible
 > _Every abstraction is a bet on generality you often won't need._
 ## Structure
 1. Assets - Meta, items that help automate vault usage
-2. Inbox - Triage, all new notes automatically get placed here
-3. Spaces - Isolated concerns regarding tasks
-4. Wiki - Flat directory of knowledge pages, utilizing wiki-links
+2. Burn - Transient notes, delete frequently
+3. Inbox - Triage, all new notes automatically get placed here
+4. Spaces - Isolated concerns regarding tasks
+5. Wiki - Flat directory of knowledge pages, utilizing wiki-links
 ## Plug-ins
 
 > [!warning]
