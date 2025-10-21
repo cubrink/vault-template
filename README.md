@@ -7,9 +7,10 @@ Making a lasting vault is hard, this template is to help prevent bloat I've expe
 
 ## Structure
 1. Assets - Meta, items that help automate vault usage
-2. Inbox - Triage, all new notes automatically get placed here
-3. Spaces - Isolated concerns regarding tasks
-4. Wiki - Flat directory of knowledge pages, utilizing wiki-links
+2. Burn - Transient notes, delete frequently
+3. Inbox - Triage, all new notes automatically get placed here
+4. Spaces - Isolated concerns regarding tasks
+5. Wiki - Flat directory of knowledge pages, utilizing wiki-links
 
 ## Hotkeys
 
