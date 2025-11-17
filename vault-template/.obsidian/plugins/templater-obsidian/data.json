@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "assets/templates",
+  "templates_folder": "assets/templater",
   "templates_pairs": [
     [
       "",
@@ -29,7 +29,10 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "assets/templates/templates-wiki.md"
+    "assets/templater/scripts/create-wiki-page.md",
+    "assets/templater/scripts/remove-empty-sections.md",
+    "assets/templater/scripts/select-meeting-notes.md",
+    "assets/templater/scripts/insert-date.md"
   ],
   "startup_templates": [
     ""

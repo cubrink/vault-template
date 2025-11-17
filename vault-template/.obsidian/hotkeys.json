@@ -1,13 +1,31 @@
 {
-  "file-explorer:new-file": [],
-  "file-explorer:new-file-in-new-pane": [],
-  "templater-obsidian:create-new-note-from-template": [
+  "terminal:find-in-terminal": [],
+  "terminal:open-terminal.integrated.root": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "J"
+    }
+  ],
+  "file-explorer:new-file": [
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "n"
+      "key": "N"
     },
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "templater-obsidian:create-new-note-from-template": [
     {
       "modifiers": [
         "Mod"
@@ -15,56 +33,145 @@
       "key": "N"
     }
   ],
+  "file-explorer:new-file-in-new-pane": [],
   "templater-obsidian:replace-in-file-templater": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "r"
-    },
     {
       "modifiers": [
         "Mod"
       ],
       "key": "R"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "R"
     }
   ],
-  "templater-obsidian:create-assets/templates/templates-wiki.md": [
+  "editor:toggle-source": [
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "W"
-    }
-  ],
-  "templater-obsidian:insert-templater": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "e"
+      "key": "`"
     },
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "I"
+      "key": "/"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "`"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "/"
     }
   ],
-  "insert-current-time": [
+  "daily-notes:goto-prev": [
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "T"
+      "key": "J"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "J"
     }
   ],
-  "insert-current-date": [
+  "file-explorer:new-file-in-current-tab": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "N"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "templater-obsidian:create-config/templates/templater-wiki.md": [
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "D"
+      "key": "W"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ],
+  "editor:insert-embed": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": ";"
+    }
+  ],
+  "editor:insert-wikilink": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "outgoing-links:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "."
+    }
+  ],
+  "backlink:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": ","
     }
   ],
   "daily-notes:goto-next": [
@@ -72,13 +179,13 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "J"
-    }
-  ],
-  "daily-notes:goto-prev": [
+      "key": "K"
+    },
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Ctrl",
+        "Mod"
       ],
       "key": "K"
     }
@@ -89,30 +196,176 @@
         "Alt"
       ],
       "key": " "
-    }
-  ],
-  "quickadd:choice:15546f2a-0580-4524-b952-f44e1f0d57f6": [
+    },
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Ctrl",
+        "Mod"
       ],
-      "key": "G"
+      "key": " "
     }
   ],
-  "obsidian-git:push2": [
+  "insert-current-date": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Ctrl",
+        "Mod"
       ],
-      "key": "P"
+      "key": "D"
     }
   ],
-  "obsidian-git:commit-specified-message": [
+  "insert-current-time": [
     {
       "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "workspace:close-window": [],
+  "editor:open-link-in-new-split": [
+    {
+      "modifiers": [
+        "Mod",
         "Alt"
       ],
-      "key": "C"
+      "key": "Enter"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "\\"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "'"
+    }
+  ],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "I"
+    }
+  ],
+  "templater-obsidian:assets/templates/util-remove-empty-sections.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "X"
+    }
+  ],
+  "templater-obsidian:assets/templates/helpers/util-remove-empty-sections.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "X"
+    }
+  ],
+  "markdown:add-alias": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "A"
+    }
+  ],
+  "templater-obsidian:create-assets/templater/scripts/create-wiki-page.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ],
+  "templater-obsidian:assets/templater/scripts/remove-empty-sections.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "X"
+    }
+  ],
+  "templater-obsidian:create-assets/templater/scripts/select-meeting-notes.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "note-composer:extract-heading": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "quickadd:choice:b70f74b5-3043-478f-b74e-574c22bdc255": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "templater-obsidian:assets/templater/scripts/insert-date.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "D"
     }
   ]
 }

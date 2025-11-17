@@ -1,4 +1,6 @@
 {
-  "theme": "obsidian",
-  "accentColor": "#006e68"
+  "enabledCssSnippets": [
+    "clean-embeds-all"
+  ],
+  "translucency": true
 }

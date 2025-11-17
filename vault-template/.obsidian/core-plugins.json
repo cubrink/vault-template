@@ -12,7 +12,7 @@
   "page-preview": true,
   "daily-notes": true,
   "templates": true,
-  "note-composer": false,
+  "note-composer": true,
   "command-palette": true,
   "slash-command": false,
   "editor-status": true,
@@ -28,6 +28,6 @@
   "file-recovery": true,
   "publish": false,
   "sync": false,
-  "bases": false,
+  "bases": true,
   "webviewer": false
 }

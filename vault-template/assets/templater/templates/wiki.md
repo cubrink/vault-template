@@ -10,9 +10,10 @@ tags:
 
 
 ---
+
 # In Progress
 
 > [!attention]
-> This page is #in-progress, the notes below represent potentially meaningful but incomplete content and thoughts
+> This page is #in-progress, the notes below represent potentially meaningful, but unorganized content and thoughts.
 
 ## Notes

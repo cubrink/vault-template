@@ -1,4 +1,5 @@
 {
-  "folder": "spaces/daily",
-  "template": "assets/templates/template-daily"
+  "folder": "spaces/daily/notes",
+  "template": "assets/templater/templates/daily",
+  "autorun": true
 }

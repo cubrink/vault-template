@@ -1,16 +1,19 @@
 ---
-created: "{{date}}"
 tags:
-  - daily
+  - daily/notes
+created: "{{date}}"
+up: "[[daily-index|Daily]]"
 ---
-# Happenings
----
-
 # Notes
 ---
 
 # To-do
 ---
 
+# Happenings
+---
+
 # Follow ups
 ---
+
+
