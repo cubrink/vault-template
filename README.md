@@ -3,7 +3,7 @@ A template for starting an Obsidian vault.
 
 # About This Vault
 
-Making a lasting vault is hard, this template is to help prevent bloat I've experienced before. Some principles I've come to are listed below:
+Making a lasting vault is hard, this template is to help prevent bloat I've experienced before.
 
 ## Structure
 1. Assets - Meta, items that help automate vault usage
