@@ -1,4 +1,5 @@
 *.swp
 *.swo
 vault-template/.obsidian/workspace.json
+.DS_Store
 
