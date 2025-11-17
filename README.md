@@ -14,27 +14,40 @@ Making a lasting vault is hard, this template is to help prevent bloat I've expe
 
 ## Hotkeys
 
-| Shortcut     | Action                                       |
-| ------------ | -------------------------------------------- |
-| Alt+I, Alt+E | Apply templater template to current fille    |
-| Ctrl+N       | Create new file and choose a template for it |
-| Alt+G        | Commit all changes and push                  |
-| Alt+W        | Create new wiki entry                        |
-| Alt+Space    | Go to daily note                             |
-| Alt+J        | Go to next daily note                        |
-| Alt+K        | Go to previous daily note                    |
-|              | Turn page into wiki (To-do)                  |
-| Alt+R        | Apply templater template in-file             |
-| Alt+T        | Insert current timestamp                     |
-| Alt+D        | Insert current date                          |
-| Alt+P        | Git push                                     |
-| Alt+C        | Git commit all                               |
+| Shortcut  | Action                                   | Category   |
+| --------- | ---------------------------------------- | ---------- |
+| Ctrl+N    | Create new file using template           | General    |
+| Alt+N     | Create new file without template         | General    |
+| Alt+W     | Create new wiki entry                    | General    |
+| Alt+M     | Open recurring meeting notes             | Navigation |
+| Alt+Space | Open daily note                          | Navigation |
+| Alt+J     | Go to previous daily note                | Navigation |
+| Alt+K     | Go to next daily note                    | Navigation |
+| Alt+;     | Insert embed                             | Links      |
+| Alt+L     | Insert wiki-link                         | Links      |
+| Alt+<     | Show incoming links                      | Links      |
+| Alt+>     | Show outgoing links                      | Links      |
+| Alt+R     | Apply templater template in current file | Templater  |
+| Alt+I     | Insert template into current file        | Templater  |
+| Alt+/     | Toggle live preview/source               | Utility    |
+| Alt+T     | Insert timestamp at cursor               | Utility    |
+| Alt+D     | Insert data at cursor                    | Utility    |
+| Alt+X     | Remove empty sections                    | Utility    |
 
 ```
-HOTKEYS USED
-_ w e r t _ _ i _ p
- _ _ d _ g _ j k _ _ _
-  _ _ c _ _ _ _ _ _ 
+ALT Hotkeys
+_ _ _ _ _ _ _ _ _ _ _ _ _
+   _ w e r t _ _ i _ _ _ _ _
+    _ _ d _ _ _ j k l ; _
+     _ x _ _ _ n m _ _ /
+	     space
+
+FULL KEYBOARD
+` 1 2 3 4 5 6 7 8 9 0 - =
+   q w e r t y u i o p [ ] \
+    a s d f g h j k l ; '
+     z x c v b n m , . /
+
 ```
 
 ## Vault Principles
@@ -63,17 +76,13 @@ It should be clear what any action an automated step is doing, and a user should
 
 <!-- This list is long, complicated, and does not sit inside one's head. It needs revision -->
 
-## Plug-ins
+## Plugins
 
 > [!warning]
-> Plug-ins are a _liability_, not an asset. They should be kept to minimum when possible.
+> Plug-ins are a _liability_ not an asset, and should be kept minimal and removed if possible.
 
 | Name                | Justification                      |
 | ------------------- | ---------------------------------- |
-| Homepage            | Load home on start-up              |
-| Dataview            | Dynamically create tables          |
-| Meta Bind           | Assign commands to buttons         |
-| Various Complements | IDE-like wiki-link autocomplete    |
-| Templater           | Programmable/interactive templates |
-| Git                 | Platform agnostic version control  |
-| Quickadd            | Chain together commands as macros  |
+| Templater           | Dynamic templates                  |
+| Terminal            | Quick access to command line tools |
+  
