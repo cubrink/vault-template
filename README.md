@@ -62,7 +62,7 @@ Ideas that led to the the current structure of this vault.
 
 Shiny things quickly become dull or unmaintained. Plug-ins should be included with caution and with a sound justification. Always consider the implications of how the vault would be affected if the plugin became unavailable.
 
-3. Knowledge and planning are distint types of information
+3. Knowledge and planning are distinct types of information
 
 Wiki-like knowledge is sparse and excels in flat structures. Project planning is dense and can managably evolve into dense nested structures as projects grow.
 
@@ -72,7 +72,7 @@ Any friction in recording the current thought can prevent you from writing anyth
 
 5. Understandable automation
 
-It should be clear what any action an automated step is doing, and a user should feel confident in being able to do the same manually, should something break. Automations (such as hotkeys) should be easily discoverable to the user, and the mental model of the actions should be able to comfortably sit in one's head.  
+It should be clear what any action an automated step is doing, and a user should feel confident in being able to do the same manually should something break. Automations (such as hotkeys) should be easily discoverable to the user, and the mental model of the actions should be able to comfortably sit in one's head.  
 
 <!-- This list is long, complicated, and does not sit inside one's head. It needs revision -->
 
