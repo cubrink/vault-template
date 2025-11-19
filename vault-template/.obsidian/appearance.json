@@ -3,5 +3,6 @@
     "clean-embeds-all"
   ],
   "translucency": true,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "accentColor": ""
 }
